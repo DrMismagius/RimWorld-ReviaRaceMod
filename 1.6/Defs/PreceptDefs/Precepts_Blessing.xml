@@ -11,7 +11,7 @@
 
 	<HistoryEventDef>
 		<defName>Revia_BlessedWithTail</defName>
-		<label>Skarne blessed us with Her power</label>
+		<label>Skarne blessed me with more power</label>
 	</HistoryEventDef>
 
 	<ThoughtDef>
@@ -22,7 +22,7 @@
 		<stages>
 			<li>
 				<label>blessed with a tail</label>
-				<description>I've been blessed by Skarne with a tail!</description>
+				<description>I've been blessed by with a tail!</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
 		</stages>
