@@ -2,6 +2,7 @@
 <Defs>
 
   <RulePackDef>
+	<!-- Generic Fallback: Live Sacrifice Ritual -->
     <defName>Revia_NamerRitualSacrifice</defName>
 		<directTestable>true</directTestable>
 		<include>
@@ -13,15 +14,13 @@
         <li>r_ritualName->[sacrifice] for [name]</li>
 
         <li>sacrifice->Sacrifice</li>
-        <li>sacrifice->Immolation</li>
-        <li>sacrifice->Oblation</li>
-        <li>sacrifice->Slaughtering</li>
         
       </rulesStrings>
     </rulePack>
   </RulePackDef>
 
 	<RulePackDef>
+		<!-- Generic Fallback: The Soulreap Ritual -->
 		<defName>Revia_NamerRitualOffering</defName>
 		<directTestable>true</directTestable>
 		<include>
@@ -30,12 +29,13 @@
 		<rulePack>
 			<rulesStrings>
 				<li>r_ritualName->The Soulreap Ritual</li>
-				<li>r_ritualName->Offering to [name]</li>
+				<li>r_ritualName->Greater Invocation Ritual</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
   
 	<RulePackDef>
+		<!-- Generic Fallback: Revia Xenotype Ritual -->
 		<defName>Revia_NamerRitualConversion</defName>
 		<directTestable>true</directTestable>
 		<include>
@@ -44,7 +44,7 @@
 		<rulePack>
 			<rulesStrings>
 				<li>r_ritualName->True Revia Conversion</li>
-				<li>r_ritualName->Conversion Ritual</li>
+				<li>r_ritualName->Xenotype Ascension Ritual</li>
 				<li>r_ritualName->[ritualType] for [name]</li>
 
 				<li>ritualType->Conversion</li>
@@ -56,6 +56,7 @@
 	</RulePackDef>
 	
 	<RulePackDef>
+		<!-- Generic Fallback: Mystical Psylink Ritual -->
 		<defName>Revia_NamerRitualPsycast</defName>
 		<directTestable>true</directTestable>
 		<include>
@@ -73,8 +74,6 @@
 				<li>action->Connection</li>
 				<li>action->Sublimation</li>
 				<li>action->Blessing</li>
-				<li>action->Grand Sacrifice</li>
-				<li>action->Sacrifice</li>
 
 			</rulesStrings>
 		</rulePack>
