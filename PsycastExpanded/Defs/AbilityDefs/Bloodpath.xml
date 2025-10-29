@@ -50,9 +50,9 @@
 	<VEF.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>Revia_SkarneAvatar</defName>
 		<label>skarne's scion</label>
-		<description>Starting a chant and building up the fury, this advanced form of the Bloodbath Circuit supercharges a Revia's already powerful connection to the Bloody Goddess through all nine of her tails, causing possession for a short time, becoming a berserk and extremely powerful, Avatar of Skarne.
-Skarne will attack anyone, but will always prioritize enemies over allies.
-This extremely powerful and dangerous state of connection lasts until psychic heat collapses this connection, the body becomes to damaged to fight, or simple time degrades the connection.</description>
+		<description>Starting a chant to build up fury, this advanced form of the Bloodbath Circuit supercharges a Revia's already powerful connection to the Bloody Goddess through all nine of her tails, becoming an Avatar of Skarne herself.
+ Skarne will attack anyone, but will always prioritize enemies over allies.
+This extremely powerful state lasts until psychic heat reaches maximum, the body becomes too damaged to fight, or time degrades the connection.</description>
 		<iconPath>UI/Bloodpath/SkarneAvatar</iconPath>
 		<abilityClass>VEF.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
@@ -88,12 +88,13 @@ This extremely powerful and dangerous state of connection lasts until psychic he
 		<defName>Revia_Bloodbath</defName>
 		<label>bloodbath</label>
 		<description>The most direct application of psychic power for any Revia is empowering her tails, her connection to Skarne, and the Bloodbath Circuit, or simply Bloodbath is that direct technique.
-By channeling psychic energy in a circuit through each of her tails, a Revia leverages that power in a moments notice to bathe in the blood of her adversaries. While active, this technique immensely increases speed of movement and rapidity of attacks, with enough tails even allowing for the benefits of sanctified weaponry at all times!</description>
+By channeling psychic energy in a circuit through each of her tails, a Revia leverages that power in a moments notice to bathe in the blood of her adversaries. 
+While active, this technique immensely increases speed of movement and rapidity of attacks, with enough tails even allowing for the benefits of sanctified weaponry at all times!</description>
 		<iconPath>UI/Bloodpath/Bloodbath</iconPath>
 		<castSound>VPE_BladeFocus_Cast</castSound>
 		<!--TODO: Change to some other sound-->
 		<targetMode>Self</targetMode>
-		<castTime>30</castTime>
+		<castTime>15</castTime>
 		<durationTime>7200</durationTime>
 		<abilityClass>VEF.Abilities.Ability_Blank</abilityClass>
 		<modExtensions>
@@ -120,7 +121,8 @@ By channeling psychic energy in a circuit through each of her tails, a Revia lev
 	<VEF.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>Revia_SkarnesProtection</defName>
 		<label>skarne's protection</label>
-		<description>Skarne enjoys blood flowing freely, but may be merciful to her supplicants and their allies. Manipulating fresh blood on open wounds allows for their immediate healing at a range, often leaving scars like a mark of her influence.</description>
+		<description>Skarne enjoys blood flowing freely, but may be merciful to her supplicants and their allies. 
+Manipulating fresh blood on open wounds allows for their immediate healing at a range, often leaving scars like a mark of her influence.</description>
 		<iconPath>UI/Bloodpath/SkarnesProtection</iconPath>
 		<castTime>150</castTime>
 		<range>36</range>
@@ -158,7 +160,8 @@ By channeling psychic energy in a circuit through each of her tails, a Revia lev
 	<VEF.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>Revia_SkarnesCurse</defName>
 		<label>skarne's curse</label>
-		<description>Channel the bloodthirsty viciousness that is integral to the Revia, and force a curse onto a living victim. Increasing their vulnerability to damage and hemmorhaging, all while causing open wounds to burst out of them!</description>
+		<description>Channel the bloodthirsty viciousness that is integral to the Revia, and force a curse onto a living victim. 
+Increase the target's vulnerability to damage and hemmorhaging, all while causing open wounds to burst out periodically!</description>
 		<iconPath>UI/Bloodpath/SkarnesCurse</iconPath>
 		<castTime>40</castTime>
 		<durationTime>1800</durationTime>
@@ -191,7 +194,8 @@ By channeling psychic energy in a circuit through each of her tails, a Revia lev
 	<VEF.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>Revia_BloodyExplosion</defName>
 		<label>bloody explosion</label>
-		<description>Manipulate energy in blood flowing from open wounds, and with a snap of your clawed fingers, and watch an explosion of gore fly out in all directions! The more blood flowing out, the greater the explosion!</description>
+		<description>Manipulate energy in blood flowing from open wounds, and with a snap of your clawed fingers, and watch an explosion of gore fly out in all directions! 
+The more blood flowing out, the greater the explosion!</description>
 		<iconPath>UI/Bloodpath/BloodyExplosion</iconPath>
 		<castTime>30</castTime>
 		<range>45</range>
@@ -298,7 +302,7 @@ The larger the creature, and the more blood that is flowing, the greater the rew
 				<level>1</level>
 				<order>2</order>
 				<psyfocusCost>0.03</psyfocusCost>
-				<entropyGain>90</entropyGain>
+				<entropyGain>40</entropyGain>
 				<psychic>true</psychic>
 				<soulReapLevel>1</soulReapLevel>
 			</li>
